@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import "tailwindcss/tailwind.css";
 
+alert ('Wellcome to Email-Genrater')
 const App = () => {
   const [usernameLength, setUsernameLength] = useState(5);
   const [numberAllowed, setNumberAllowed] = useState(false);
